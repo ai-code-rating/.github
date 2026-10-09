@@ -8,7 +8,7 @@ A project publishes its rating in an `ACR.md` file at the root of its repository
 
 | Position | Measures | `A2b` |
 |---|---|---|
-| 1 | **Maintainer Expertise**: who approves the code, `A` (expert) to `E` (non-programmer) | `A` Expert |
+| 1 | **Maintainer Expertise**: how experienced the person responsible for the code is (in a solo project, you; on a team, whoever approves changes), `A` (expert) to `E` (non-programmer) | `A` Expert |
 | 2 | **AI Share**: how much of the code AI wrote, `0` (none) to `4` (76–100%) | `2` 26–50% |
 | 3 | **Oversight**: how closely a person checked the AI's work, `a` (verified) to `e` (unchecked) | `b` Reviewed |
 
