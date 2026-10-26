@@ -8,7 +8,7 @@ A project publishes its rating in an `ACR.md` file at the root of its repository
 
 | Position | Measures | `A2b` |
 |---|---|---|
-| 1 | **Maintainer Expertise**: how experienced the person responsible for the code is (in a solo project, you; on a team, whoever approves changes), `A` (expert) to `E` (non-programmer) | `A` Expert |
+| 1 | **Maintainer Expertise**: how experienced the person responsible for the code is (in a solo project, you; on a team, the least experienced person who can approve a change without someone more experienced also approving it), `A` (expert) to `E` (non-programmer) | `A` Expert |
 | 2 | **AI Share**: how much of the code AI wrote, `0` (none) to `4` (76–100%) | `2` 26–50% |
 | 3 | **Oversight**: how closely a person checked the AI's work, `a` (verified) to `e` (unchecked) | `b` Reviewed |
 
@@ -16,11 +16,11 @@ The rating doesn't judge whether using AI is good or bad. It tells readers how t
 
 ## Rate Your Project
 
-1. [Get your rating](https://aicoderating.com/#rate): answer three questions and copy the `ACR.md` and README badge.
+1. [Get your rating](https://aicoderating.com/#rate): answer three questions and copy the `ACR.md` and README badge (optional).
 2. Add `ACR.md` to the root of your repository.
 3. [Check the file](https://aicoderating.com/validate/) with the validator.
 4. Add the [GitHub Action](https://github.com/ai-code-rating/action) to check it on every push and pull request.
-5. [Ask to be listed](https://github.com/ai-code-rating/aicoderating.com/issues/new?template=add-project.yml) in [Rated Projects](https://aicoderating.com/#rated) on the site.
+5. [Ask to be listed](https://github.com/ai-code-rating/aicoderating.com/issues/new?template=add-project.yml) in [Rated Projects](https://aicoderating.com/#rated) on the site, so others can find your project.
 
 Not sure which levels fit? The [rating examples](https://aicoderating.com/examples/) cover common setups, and the [FAQ](https://aicoderating.com/faq/) covers the edge cases.
 
