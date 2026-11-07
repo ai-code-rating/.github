@@ -8,9 +8,9 @@ A project publishes its rating in an `ACR.md` file at the root of its repository
 
 | Position | Measures | `A2b` |
 |---|---|---|
-| 1 | **Maintainer Expertise**: how experienced the person responsible for the code is (in a solo project, you; on a team, the least experienced person who can approve a change without someone more experienced also approving it), `A` (expert) to `E` (non-programmer) | `A` Expert |
-| 2 | **AI Share**: how much of the code AI wrote, `0` (none) to `4` (76–100%) | `2` 26–50% |
-| 3 | **Oversight**: how closely a person checked the AI's work, `a` (verified) to `e` (unchecked) | `b` Reviewed |
+| 1 | **Maintainer Expertise**: how experienced the person responsible for the code is (in a solo project, you; on a team, the least experienced person who can approve a change without someone more experienced also approving it), `A` (expert) to `E` (non-programmer) | `A`&nbsp;Expert |
+| 2 | **AI Share**: how much of the code AI wrote, `0` (none) to `4` (76–100%) | `2`&nbsp;26&#8288;–&#8288;50% |
+| 3 | **Oversight**: how closely a person checked the AI's work, `a` (verified) to `e` (unchecked) | `b`&nbsp;Reviewed |
 
 The rating doesn't judge whether using AI is good or bad. It tells readers how the code was made, so they can decide what it means for them.
 

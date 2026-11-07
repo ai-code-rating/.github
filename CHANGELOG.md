@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-06: Rating Column Cells Stay on One Line
+
+- In the table's `A2b` column, each cell ("`A` Expert", "`2` 26–50%", and "`b` Reviewed") now stays on one line. On narrower screens, "26–50%" split after the dash, and "Reviewed" dropped below its `b`. A non-breaking space (`&nbsp;`) now joins each code to its word.
+- "26–50%" no longer splits across two lines after the dash. Invisible word joiners (`&#8288;`) on each side of the dash stop the browser breaking the line there, and the text still reads "26–50%". Markdown tables on GitHub can't set column widths, so this is the way to keep it together.
+
 ## 2026-10-25: Approver, Optional Badge, and Listing
 
 - The Maintainer Expertise row now gives the spec's rule for teams: rate "the least experienced person who can approve a change without someone more experienced also approving it", the same wording as the rating form on aicoderating.com. It said "whoever approves changes", which left out who counts. A team where junior reviewers can merge on their own could have rated itself at a senior reviewer's level.
